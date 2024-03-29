@@ -1,0 +1,97 @@
+$primary-color:rgba(0,0,0,.2);
+
+
+
+
+.product-wap{
+   .card {
+     .product-overlay {
+    background:$primary-color;
+    visibility: hidden;
+    opacity: 0;
+    transition: .3s;
+   }}
+   a {
+    color: #000;
+    }
+  }
+   .product-wap:hover{
+     .card {
+      .product-overlay {
+        visibility: visible;
+        opacity: 1;
+   }}}
+
+
+   .grid{
+    // display:-webkit-box;
+    // display: flex;
+    flex-wrap: nowrap;
+    display: grid;
+   grid-template-columns:repeat(auto-fill, minmax(200px, 5fr))!important;
+    gap: 30px;
+     width: 100%;
+      padding-left:40px; 
+      padding-right: 40px;
+     }
+
+     .product-item-metaContainer {
+        padding-top: 10px;
+        padding-left: 1px;
+        padding-right: 1px;
+    }
+    .product-item-brand {
+        font-size: 16px;
+        font-weight: 700;
+        color: #282c3f;
+        text-align: left;
+        margin: 0;
+    }
+    .product-item-pricing, .product-item-title {
+        width: 100%;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    .product-item-title {
+        margin: 4px 0 8px;
+        color: #535766;
+        font-size: 14px;
+        text-decoration: none;
+    }
+    .product-item-pricing {
+        font-size: 16px;
+    }
+    .product-item-pricing, .product-item-title {
+        width: 100%;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    .product-item-selling-price {
+        color: #282c3f;
+        padding: 0 3px 0 0;
+        font-weight: 700;
+        font-size: 16px;
+    }
+    .product-item-mrp {
+        text-decoration: line-through;
+        color: #282c3f;
+        padding: 0 3px;
+        opacity: .7;
+        font-size: 12px;
+    }
+    .product-item-discount {
+        color: #ff905a;
+        padding: 0 3px;
+        font-size: 12px;
+        font-weight: 700;
+    }
+    .similar-heading {
+        font-size: 16px;
+        font-weight: 700;
+        text-transform: uppercase;
+        padding-left:40px; 
+        color: #282c3f;
+        margin: 0 0 2px;
+    }

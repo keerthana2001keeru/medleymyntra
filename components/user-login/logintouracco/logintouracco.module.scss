@@ -1,0 +1,128 @@
+//$button-color:#ff3f6c;
+$login-background-color:#eed5db;
+@import '../../../styles/variables.scss';
+.formContainer sup{
+    color:red;
+}
+#mainContent {
+    margin: 28px auto 0;
+    max-width: 400px;
+    background-color: #fff;
+}
+.formContainer {
+    padding:50px 50px 0;
+}
+
+#reactPageContent, #rnwPageContent {
+    min-height: calc(100vh - 50px);
+}
+.authPage {
+    position: relative;
+}
+.authHeader {
+    font-size: 20px;
+    font-weight: 700;
+}
+.plHeader {
+    margin-bottom: 30px;
+}
+.formContainer .form-group {
+    margin-bottom: 20px;
+}
+.authPageLinks {
+    color: #282c3f;
+    font-size: 12px;
+}
+.authPageLinks a, .authPageLinks span {
+    cursor: pointer;
+    color: $button-color;
+    font-weight: 700;
+}
+.formContainer .form-group .form-control {
+    border: 1px solid #d4d5d9;
+    font-size: 12px;
+    padding: 11px 12px;
+    height: auto;
+    line-height: 16px;
+    color: #282c3f;
+}
+.formContainer .form-group .bar {
+    display: none;
+}
+.form-group .bar {
+    position: relative;
+    border-bottom: 1px solid #a9abb3;
+    display: block;
+}
+ .submitButton {
+    margin-top: 4px;
+    padding: 11px 40px;
+    font-size: 14px;
+    letter-spacing: .6px;
+    border-radius: 2px;
+    line-height: 16px;
+    color: #fff;
+    background-color: $button-color;
+    border-color: $button-color;
+    display: block;
+    width: 63%;
+    align-items: center;
+
+}
+#reactPageContent, #rnwPageContent {
+    min-height: calc(100vh - 190px);
+    
+}
+.we{
+    background-color: $login-background-color;
+}
+.wh{
+    padding-top: 90px;
+    background-color: $login-background-color;
+}
+
+
+
+
+
+
+
+
+
+
+.signUpHeader {
+    margin-left: 0;
+    padding: 22px 0 0;
+
+    font-size: 16px;
+    font-weight: 700;
+    padding: 11px 0 0;
+    margin-left: 15px;
+    color: #282c3f;
+}
+.phoneNumber {
+    margin: 24px 0 16px;
+    position: relative;
+}
+
+.css-wcrh92 {
+    width: 100%;
+    letter-spacing: 1px;
+    margin-top: 24px;
+    border-radius: 2px;
+    font-size: 14px;
+    font-weight: 600;
+    border-width: 0px;
+    padding: 10px 16px;
+    background-color: $button-color;
+    color: rgb(255, 255, 255);
+
+}
+.css-xjhrni {
+    box-sizing: border-box;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    display: flex;
+}

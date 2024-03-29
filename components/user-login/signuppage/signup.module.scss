@@ -1,0 +1,193 @@
+//$button-color:#ff3f6c;
+$login-background-color:#eed5db;
+
+@import '../../../styles/variables.scss';
+
+
+
+
+#mainContent {
+   
+    margin: 28px auto 0;
+    width: 400px;
+    background-color: rgb(255, 255, 255);
+    // color:black;
+}
+
+.formContainer{
+    padding:36px 36px 0;
+}
+.signUpHeader {
+    margin-left: 0;
+    padding: 22px 0 0;
+
+    font-size: 16px;
+    font-weight: 700;
+    padding: 11px 0 0;
+    margin-left: 15px;
+    color: #282c3f;
+}
+.phoneNumber {
+    margin: 24px 0 16px;
+    position: relative;
+}
+.phoneNumberLabel {
+    opacity: .6;
+    font-size: 10px;
+    color: #282c3f;
+}
+.phoneNumberValue {
+    font-size: 14px;
+    color: #282c3f;
+}
+.formContainer .form-group {
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 14px;
+    position: relative;
+}
+.formContainer .form-group .form-control {
+    border: 1px solid #d4d5d9;
+    font-size: 12px;
+    padding: 11px 12px;
+    height: auto;
+    line-height: 16px;
+    color: #282c3f;
+}
+.formContainer .form-group input {
+    caret-color: #ff3f6c;
+}
+.formContainer .form-group .placeholderAlternative {
+    color: #94969f;
+    top: 12px;
+    left: 12px;
+    font-size: 12px;
+    position: absolute;
+    pointer-events: none;
+}
+.passwordWidgets {
+    border-radius: 2px;
+    margin-top: 6px;
+}
+.form-group .bar {
+    position: relative;
+    border-bottom: 1px solid #a9abb3;
+    display: block;
+}
+.passwordWidgets .disabled .widgetText {
+    color: #282c3f;
+    opacity: .5;
+}
+.passwordWidgets .widgetText {
+    font-size: 10px;
+    font-weight: 700;
+}
+.formContainer .form-group {
+    margin-bottom: 20px;
+}
+.textInputInfo {
+    position: relative;
+    bottom: 14px;
+    margin-bottom: 10px;
+    color: #94969f;
+    font-size: 10px;
+}
+// .btn.primary {
+//     color: #fff;
+//     background-color: #ff3e6c;
+//     border-color: #ff2459;
+// }
+
+.submitButton{
+    background-color: $button-color;
+    display: block;
+    width: 100%;
+    text-align: center;
+    //  padding: 12px 250px 12px 20px;
+  text-decoration: none;
+  border-color: #ff2459;
+    //  font-weight: 700;
+    //  font-size: 14px;
+     line-height: 16px;
+ font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 1px;
+    display: inline-block;
+   padding: 10px 28px 11px 28px;
+    //  border-radius: 50px;
+   transition: 0.5s;
+    margin: 10px 0 0 0;
+   color: #fff;
+
+}
+.formContainer .form-group .buttonValue {
+    color: #2b3e94;
+    font-size: 14px;
+    position: relative;
+    
+    top: 2px;
+}
+.formContainer .form-group .buttonGroupInfo {
+    display: inline-block;
+    color: #94969f;
+    font-size: 14px;
+    position: relative;
+    
+    top: 2px;
+    font-style:#94969f;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+#reactPageContent, #rnwPageContent {
+    min-height: calc(100vh - 190px);
+
+}
+.we{
+    background-color:$login-background-color;
+}
+.wh{
+    padding-top: 90px;
+    background-color: $login-background-color;
+}
+
+
+.mobContainer {
+    margin-top: 20px;
+}
+.mobContainer h3 {
+    font-weight: 700;
+    font-size: 16px;
+    padding: 0;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.mobContainer h4 {
+    font-weight: 400;
+    font-size: 12px;
+    opacity: .7;
+    padding: 0;
+}
+
+
+.resendContainer {
+    padding: 0;
+    border: none;
+    color: $button-color;
+    font-size: 12px;
+    font-weight: 700;
+    background-color: #fff;
+    margin-top: 30px;
+    cursor: pointer;
+}

@@ -1,0 +1,42 @@
+$button-color:#ff3f6c;
+
+.footer{
+   position:fixed;
+    bottom: 0;
+   width:100%;
+    background-color: rgb(230, 230, 222);
+}
+.modalBody1{
+    list-style: none;
+  padding-left: 1px;
+}
+
+.modalBody1 li{
+    line-height: 3;
+    // padding-left: 1px;
+}
+// .modalBody1:hover li{
+//     background-color: black;
+//     color: white;
+// }
+.css-xjhrni {
+    box-sizing: border-box;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    display: flex;
+}
+.css-etguer {
+    width: 100%;
+    margin-top: 5px;
+    letter-spacing: 1px;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 2px;
+    border-width: 0px;
+    padding: 6px 16px;
+    background-color:$button-color;
+    color: rgb(255, 255, 255);
+  
+}

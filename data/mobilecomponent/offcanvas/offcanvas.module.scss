@@ -1,0 +1,183 @@
+.acco{
+   border-style: none;
+    margin:0;
+    border:none;
+    padding-top: 0px;
+}
+ .accor{
+  border-style: none;
+  margin:0;
+  border:none;
+  padding-top: 0px;
+  background-color: #3e4152;
+  h5{
+    color:white;
+    padding: 10px 0;
+    display: inline-block;
+    font-size: 15px;
+    border: none;
+ 
+
+ .button {
+    border: none;
+    background: none;
+    width:234px;
+  }
+ } 
+} 
+   
+
+
+.off{
+
+  background-color: gray;
+}
+// .offcanva{
+//   padding:4rem;
+// }    
+.h5{
+  padding: 10px 0;
+    display: inline-block;
+    font-size: 16px;
+    color: aqua;
+}
+
+
+
+    
+ 
+.offcanvass{
+   width:25px;
+  
+    a{
+        color:#777777;
+        text-decoration: none;
+        i{
+            color:#777777;
+         }}
+   } 
+   .offcanva{
+    width:240px;
+   }
+  .accordion-list{
+    border:none;
+     margin:0;
+ 
+    }
+    .accordion-list .btn{
+      box-shadow: none;
+      border:none;
+      margin:0;
+      background: none;
+      padding: 1px;
+   
+     }
+
+   .accordion-list .btn:focus{
+    box-shadow: none;
+    border:none;
+    margin:0;
+    background: none;
+ 
+   }
+
+
+
+  .accordion-list ul {
+    padding: 0;
+    list-style: none;
+  }
+  
+   .accordion-list li+li {
+    margin-top: 15px;
+  }
+  
+.accordion-list li {
+    // padding: 20px;
+    background: #fff;
+    border-radius: 4px;
+  }
+  .accordion-list h2 {
+    margin-bottom: 0;
+    padding: 10px 0 0 0;
+    border:none;
+    margin:0;
+ 
+  }
+.accordion-list a {
+    display: block;
+    position: relative;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    padding-right: 30px;
+    outline: none;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+ 
+.accordion-list i {
+    font-size: 24px;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  
+  .accordion-list p {
+    margin-bottom: 0;
+    padding: 10px 0 0 0;
+  }
+  
+ .accordion-list .icon-show {
+    display: none;
+  }
+  
+  .accordion-list a.collapsed {
+    color: #343a40;
+  }
+  
+// .accordion-list a.collapsed:hover {
+    // color: #47b2e4;
+//   }
+  
+  .accordion-list a.collapsed .icon-show {
+    display: inline-block;
+  }
+  
+  .accordion-list a.collapsed .icon-close {
+    display: none;
+  }
+  
+  .ec{
+    align-items:flex-start;
+  }
+
+
+  $offcanvas-horizontal-width: 400px;
+  $offcanvas-vertical-height:  30vh;
+
+  // @media  (max-width: 991px) {
+  // .offcanvass{
+
+  //    width:25px;
+
+  // }}
+
+
+
+  .accordion-item{
+    border:none;
+  }
+
+  .itemmenu{
+   
+      font-size: 13px;
+      border: none;
+       padding: 1px 2px;
+      background: none;
+      color: #3e4152;
+      font-weight: 700;
+  
+  }

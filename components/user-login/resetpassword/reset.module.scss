@@ -1,0 +1,136 @@
+//$button-color:#ff3f6c;
+$login-background-color:#eed5db;
+@import '../../../styles/variables.scss';
+
+
+#mainContent {
+
+    margin: 28px auto 0;
+    max-width: 400px;
+    background-color: #fff;
+}
+.img-responsive {
+    display: block;
+    max-width: 100%;
+    height: auto;
+ 
+}
+.welcome-header {
+
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 4px;
+}
+.mobileInputContainer .submitBottomOption {
+   
+    background-color:$button-color;
+    display: block;
+   width: 100%;
+    text-align: center;
+     padding: 12px 25px 12px 20px;
+  text-decoration: none;
+   
+    //  font-weight: 700;
+    //  font-size: 14px;
+     line-height: 16px;
+ font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 1px;
+    display: inline-block;
+//    padding: 10px 28px 11px 28px;
+    //  border-radius: 50px;
+   transition: 0.5s;
+    margin: 10px 0 0 0;
+   color: #fff;
+
+}
+.immage{
+    width:400px;
+    height:150px;
+}
+
+
+.signInContainer{
+    // padding:36px 36px 0;
+    padding:50px 50px 0;
+}
+.mobileInputContainer  h4 {
+    font-weight: 400;
+    font-size: 12px;
+    opacity: .7;
+ 
+}
+
+
+ 
+
+.mobileInputContainer .midLinks {
+    margin: 0 0 21px;
+    color: rgba(40,44,63,.8);
+    font-weight: 700;
+    font-size: 14px;
+   
+}
+.mobileInputContainer .midLinks a {
+   
+    color: $button-color;
+    font-weight: 400;
+
+       font-size: 12px;
+}
+
+    .get-help {
+        margin: 30px 0;
+    }
+    .mobileInputContainer .form-group .placeholderAlternative {
+        color: #94969f;
+        top: 10px;
+        left: 12px;
+        font-size: 14px;
+        position: absolute;
+        pointer-events: none;
+    }
+     .get-help span {
+    
+        color: $button-color;
+        font-weight: 700;
+      
+    }
+
+    #reactPageContent, #rnwPageContent {
+        min-height: calc(100vh - 190px);
+    
+    }
+    .we{
+        background-color:$login-background-color;
+    }
+    .wh{
+        padding-top: 90px;
+        background-color: $login-background-color;
+    }
+   
+
+
+
+    .css-wcrh92 {
+        width: 100%;
+        letter-spacing: 1px;
+        margin-top: 24px;
+        border-radius: 2px;
+        font-size: 14px;
+        font-weight: 600;
+        border-width: 0px;
+        padding: 10px 16px;
+        background-color: $button-color;
+        color: rgb(255, 255, 255);
+    
+    }
+    .css-xjhrni {
+        box-sizing: border-box;
+        -webkit-box-align: center;
+        align-items: center;
+        -webkit-box-pack: center;
+        justify-content: center;
+        display: flex;
+    }
+    

@@ -1,0 +1,96 @@
+//$button-color:#ff3f6c;
+$login-background-color:#eed5db;
+@import '../../../styles/variables.scss';
+ .verificationContainer {
+
+
+    padding:36px 36px 0;
+
+ }
+
+#mainContent {
+    margin: 28px auto 0;
+    max-width: 400px;
+    background-color: #fff;
+}
+//     margin: 28px auto 0;
+//     width: 400px;
+//     background-color: rgb(255, 255, 255);
+//     color:black;
+// }
+.img{
+    width: 90px;
+    height: 90px;
+}
+.mobContainer {
+    margin-top: 20px;
+}
+.mobContainer h3 {
+    font-weight: 700;
+    font-size: 16px;
+    padding: 0;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.mobContainer h4 {
+    font-weight: 400;
+    font-size: 12px;
+    opacity: .7;
+    padding: 0;
+}
+.otpContainer {
+    margin-top: 40px;
+}
+.otpContainer input {
+    padding: 9px 0;
+    border: 1px solid #d4d5d9;
+    font-size: 14px;
+    text-align: center;
+    margin: 0 16px 0 0;
+    width: 30px;
+    border-radius: 2px;
+}
+.input {
+    color: $button-color;
+}
+
+.resendContainer {
+    padding: 0;
+    border: none;
+    color: $button-color;
+    font-size: 12px;
+    font-weight: 700;
+    background-color: #fff;
+    margin-top: 30px;
+    cursor: pointer;
+}
+.bottomeLink {
+    cursor: pointer;
+    margin-top: 30px;
+    font-size: 12px;
+}
+.bottomeLink span {
+    font-weight: 600;
+    color: $button-color;
+}
+.bottomeLink span a {
+    font-weight: 600;
+    color:$button-color;
+    text-decoration: none;
+}
+
+
+.imma .img{
+    width:100px;
+    height:1px;
+}
+#reactPageContent {
+    min-height: calc(100vh - 190px);
+}
+.we{
+    background-color: $login-background-color;
+}
+.wh{
+    padding-top: 90px;
+    background-color:$login-background-color;
+}
