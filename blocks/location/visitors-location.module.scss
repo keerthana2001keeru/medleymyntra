@@ -1,0 +1,44 @@
+.plans-price{
+
+    justify-content: flex-end;
+
+    select{
+
+        appearance: none;
+        outline: none;
+        cursor: pointer;
+        position: relative;
+        border: none;
+
+
+        
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            background: transparent;
+            background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' id='edit'%3e%3cg data-name='Layer 2'%3e%3cpath d='M19.4 7.34 16.66 4.6A2 2 0 0 0 14 4.53l-9 9a2 2 0 0 0-.57 1.21L4 18.91a1 1 0 0 0 .29.8A1 1 0 0 0 5 20h.09l4.17-.38a2 2 0 0 0 1.21-.57l9-9a1.92 1.92 0 0 0-.07-2.71zM9.08 17.62l-3 .28.27-3L12 9.32l2.7 2.7zM16 10.68 13.32 8l1.95-2L18 8.73z' data-name='edit'%3e%3c/path%3e%3c/g%3e%3c/svg%3e");
+            background-repeat: no-repeat;
+            background-position-x: 100%;
+            background-position-y: 5px;
+            margin-right: 2rem;
+            padding: 1rem;
+            padding-right: 2rem;
+            background-size: 25px;
+          
+
+        &:focus-visible{
+           
+            outline: none;
+        }
+        
+    }
+}
+
+
+.edit-icon {
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+}
+
+
+

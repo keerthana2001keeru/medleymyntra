@@ -1,0 +1,146 @@
+{
+  "blockId": "MT00030B150",
+  "blockSeq": 1,
+  "blockRef": "#TH0022B1501",
+  "blockOrder": 1,
+  "isBlockEnabled": true,
+  "style": [],
+  "animation": [],
+  "elements": {
+      "banner": {
+          "elementId": "MT00030B150E01",
+          "style": [],
+          "animation": [],
+          "value": [
+              {
+                  "bannerImage": {
+                      "value": "https://skartiocloud.sgp1.digitaloceanspaces.com/SKARTIO/THEME/1670396001919Slider.jpg",
+                      "style": [],
+                      "animation": []
+                  },
+                  "bannerHeading": {
+                      "value": "Fashion Saturday",
+                      "style": [],
+                      "animation": []
+                  },
+                  "bannerLink": {
+                      "value": "/",
+                      "style": [],
+                      "animation": []
+                  },
+                  "bannerSeo": {
+                      "value": "seo",
+                      "style": [],
+                      "animation": []
+                  }
+              },
+              {
+                  "bannerImage": {
+                      "value": "https://skartiocloud.sgp1.digitaloceanspaces.com/SKARTIO/THEME/1670396230818Slider2.jpg",
+                      "style": [],
+                      "animation": []
+                  },
+                  "bannerHeading": {
+                      "value": "Fashion Saturday",
+                      "style": [],
+                      "animation": []
+                  },
+                  "bannerLink": {
+                      "value": "",
+                      "style": [],
+                      "animation": []
+                  },
+                  "bannerSeo": {
+                      "value": "",
+                      "style": [],
+                      "animation": []
+                  }
+              },
+              {
+                  "bannerImage": {
+                      "value": "https://skartiocloud.sgp1.digitaloceanspaces.com/SKARTIO/THEME/1670396783925Slider3.jpg",
+                      "style": [],
+                      "animation": []
+                  },
+                  "bannerHeading": {
+                      "value": "Fashion Saturday",
+                      "style": [],
+                      "animation": []
+                  },
+                  "bannerLink": {
+                      "value": "",
+                      "style": [],
+                      "animation": []
+                  },
+                  "bannerSeo": {
+                      "value": "",
+                      "style": [],
+                      "animation": []
+                  }
+              },
+              {
+                  "bannerImage": {
+                      "value": "https://skartiocloud.sgp1.digitaloceanspaces.com/SKARTIO/THEME/1670396001919Slider.jpg",
+                      "style": [],
+                      "animation": []
+                  },
+                  "bannerHeading": {
+                      "value": "Fashion Saturday",
+                      "style": [],
+                      "animation": []
+                  }
+              },
+              {
+                  "bannerImage": {
+                      "value": "https://skartiocloud.sgp1.digitaloceanspaces.com/SKARTIO/THEME/1670396230818Slider2.jpg",
+                      "style": [],
+                      "animation": []
+                  },
+                  "bannerHeading": {
+                      "value": "Fashion Saturday",
+                      "style": [],
+                      "animation": []
+                  }
+              }
+          ]
+      },
+      "sideBanner": {
+          "elementId": "MT00030B150E02",
+          "style": [],
+          "animation": [],
+          "value": [
+              {
+                  "bannerImage": {
+                      "value": "https://skartiocloud.sgp1.digitaloceanspaces.com/SKARTIO/THEME/1670405054029offer1.jpg",
+                      "style": [],
+                      "animation": []
+                  },
+                  "bannerLink": {
+                      "value": "/",
+                      "style": [],
+                      "animation": []
+                  },
+                  "bannerSeo": {
+                      "value": "seo",
+                      "style": [],
+                      "animation": []
+                  }
+              },
+              {
+                  "bannerImage": {
+                      "value": "https://skartiocloud.sgp1.digitaloceanspaces.com/SKARTIO/THEME/1670405092259offer2.jpg",
+                      "style": [],
+                      "animation": []
+                  }
+              },
+              {
+                  "bannerImage": {
+                      "value": "https://skartiocloud.sgp1.digitaloceanspaces.com/SKARTIO/THEME/1670405123171offer3.jpg",
+                      "style": [],
+                      "animation": []
+                  }
+              }
+          ]
+      }
+  }
+}
